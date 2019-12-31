@@ -29,5 +29,8 @@
   "peerDependencies": {
     "styled-components": "^4.4.1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {}
 }
