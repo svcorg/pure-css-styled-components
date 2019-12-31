@@ -19,13 +19,19 @@
     "@types/styled-components": "^4.4.1",
     "husky": "^3.1.0",
     "prettier": "^1.19.1",
-    "typescript": "^3.7.4"
+    "typescript": "^3.7.4",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.5",
+    "@semantic-release/release-notes-generator": "^7.3.5",
+    "semantic-release": "^15.14.0"
   },
   "peerDependencies": {
     "styled-components": "^4.4.1"
   },
   "publishConfig": {
-    "registry":  "https://npm.pkg.github.com",
+    "registry": "https://npm.pkg.github.com",
     "tag": "latest"
-  }
+  },
+  "dependencies": {}
 }
