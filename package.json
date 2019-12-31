@@ -1,12 +1,12 @@
 {
   "name": "react-pure-css-components",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Chaitanya K Kamatham <projects+npm@kchaitanya.com> (https://kchaitanya.com)",
+  "license": "ISC",
+  "description": ""
 }
