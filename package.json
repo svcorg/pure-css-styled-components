@@ -4,7 +4,8 @@
   "main": "lib/index.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "prebuild": "rm -rf dist"
+    "prebuild": "rm -rf dist",
+    "release": "semantic-release"
   },
   "keywords": [],
   "files": [
