@@ -20,8 +20,7 @@ jobs:
         NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.GH_TOKEN }}
-    - run: sed -i 's/npm.pkg.github.com/registry.npmjs.org/g' ./package.json
-    - run: cat ./package.json
+    - run: sed -i "" "s+npm.pkg.github.com+registry.npmjs.org+g" "package.json"
     - run: npm publish
       env:
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
