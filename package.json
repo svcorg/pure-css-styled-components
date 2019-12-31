@@ -1,12 +1,26 @@
 {
-  "name": "react-pure-css-components",
+  "name": "@svcorg/pure-css-styled-components",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "prebuild": "rm -rf dist"
   },
   "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "private": false,
   "author": "Chaitanya K Kamatham <projects+npm@kchaitanya.com> (https://kchaitanya.com)",
   "license": "ISC",
-  "description": ""
+  "description": "Styled Components based on Pure CSS",
+  "devDependencies": {
+    "@types/styled-components": "^4.4.1",
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  },
+  "peerDependencies": {
+    "styled-components": "^4.4.1"
+  }
 }
