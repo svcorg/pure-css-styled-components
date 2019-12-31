@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "prebuild": "rm -rf dist",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "release-git": "semantic-release -p @semantic-release/npm"
   },
   "keywords": [],
   "files": [
