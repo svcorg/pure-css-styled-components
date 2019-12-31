@@ -13,8 +13,6 @@ jobs:
         version: 13.x
         # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN
         registry-url: https://npm.pkg.github.com
-        # Optional scope for authenticating against scoped registries
-        scope: @svcorg
     - run: npm install
     - run: npm run build
     - uses: codfish/semantic-release-action@v1
