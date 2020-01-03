@@ -1,6 +1,6 @@
 {
   "name": "@svcorg/pure-css-styled-components",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "main": "lib/index.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
