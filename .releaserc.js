@@ -5,6 +5,7 @@ module.exports = {
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
     ['@semantic-release/npm', { tarballDir: 'dist' }],
+    '@semantic-release/git',
     ['@semantic-release/github', { assets: 'dist/*.tgz' }],
   ],
   ci: true,
