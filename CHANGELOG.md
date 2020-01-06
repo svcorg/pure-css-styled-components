@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/svcorg/pure-css-styled-components/compare/v1.1.3...v1.1.4) (2020-01-06)
+
+
+### Bug Fixes
+
+* updated release schedule ([ca263a6](https://github.com/svcorg/pure-css-styled-components/commit/ca263a6f8f84f86ef51c340bfb5901bb11fa74fb))
+
 ## [1.1.3](https://github.com/svcorg/pure-css-styled-components/compare/v1.1.2...v1.1.3) (2020-01-06)
 
 
